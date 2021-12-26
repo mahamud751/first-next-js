@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 
 
-const errorPage = () => {
+const ErrorPage = () => {
     const router = useRouter()
 
     useEffect(() => {
@@ -21,4 +21,4 @@ const errorPage = () => {
     )
 }
 
-export default errorPage
+export default ErrorPage
