@@ -1,8 +1,6 @@
-import Image from "next/image"
-import Blogs from "../../components/blogs"
-
 import Nav from "../../components/Nav"
 import styles from '../../styles/Home.module.css'
+import Blogs from '../../components/Blogs'
 
 export const getStaticProps = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/posts")
