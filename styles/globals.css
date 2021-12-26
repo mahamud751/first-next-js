@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.mains{
+  background-color: red;
+}
+.main-part{
+  color: green;
+}
